@@ -16,46 +16,45 @@
 
 # 🚀 사용 방법 
   
-### 저장소 복제(Clone)
+### 1. 저장소 복제(Clone)
 
 ```bash
 git clone https://github.com/your-username/your-repository-name.git
 cd your-repository-name
 ```
-필요한 라이브러리 설치
-
-Bash
-
+### 2. 필요한 라이브러리 설치
+```bash
 pip install pandas scikit-learn tensorflow konlpy
-Jupyter Notebook 실행
-practice.ipynb 파일을 열고 전체 셀을 순서대로 실행하면 모델 학습부터 실시간 추론까지 직접 테스트해볼 수 있습니다.
+```
+### 3. Jupyter Notebook 실행
+#### practice.ipynb 파일을 열고 전체 셀을 순서대로 실행하면 모델 학습부터 실시간 추론까지 직접 테스트해볼 수 있습니다.
 
 ---
 
-<h1> 🛠️ 사용된 기술 및 라이브러리 <h1>
+# 🛠️ 사용된 기술 및 라이브러리 
 
-Python: 프로젝트의 기본 프로그래밍 언어
+- <h3>Python: 프로젝트의 기본 프로그래밍 언어</h3>
 
-TensorFlow (Keras): 딥러닝 모델의 설계, 학습 및 추론
+- <h3>TensorFlow (Keras): 딥러닝 모델의 설계, 학습 및 추론</h3>
 
-Pandas: 데이터 로드 및 기본 처리
+- <h3>Pandas: 데이터 로드 및 기본 처리</h3>
 
-Scikit-learn: 데이터 분할
+- <h3>Scikit-learn: 데이터 분할</h3>
 
-Konlpy (Okt): 한국어 형태소 분석 및 토큰화
+- <h3>Konlpy (Okt): 한국어 형태소 분석 및 토큰화</h3>
 
-Numpy: 데이터 배열 처리
+- <h3>Numpy: 데이터 배열 처리</h3>
 
-Jupyter Notebook: 프로젝트 개발 환경
+- <h3>Jupyter Notebook: 프로젝트 개발 환경</h3>
 
 ---
 
-<h1> 📊 데이터셋 <h1>
+# 📊 데이터셋 
 
-Naver Sentiment Movie Corpus (NSMC)
+- <h3>Naver Sentiment Movie Corpus (NSMC)</h3>
 
-설명: 네이버 영화 리뷰에서 수집된 20만 개의 문장으로 구성된 데이터셋입니다.
+- <h3>설명: 네이버 영화 리뷰에서 수집된 20만 개의 문장으로 구성된 데이터셋입니다.</h3>
 
-구성: 긍정(1) 또는 부정(0) 라벨이 달려있으며, 훈련용 데이터 15만 개, 테스트용 데이터 5만 개로 이루어져 있습니다.
+- <h3>구성: 긍정(1) 또는 부정(0) 라벨이 달려있으며, 훈련용 데이터 15만 개, 테스트용 데이터 5만 개로 이루어져 있습니다.</h3>
 
-출처: e9t/nsmc GitHub Repository
+- <h3>출처: e9t/nsmc GitHub Repository</h3>
